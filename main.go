@@ -8,8 +8,18 @@ import (
 
 func main() {
 
-	GroupAnagram()
+	TopKfrequentElements()
 
+}
+
+func TopKfrequentElements() {
+	// nums := []int{1, 1, 1, 2, 2, 3}
+	nums1 := []int{1}
+	k := 1
+
+	result := problems.TopKfrequentElements(nums1, k)
+
+	fmt.Println(result)
 }
 
 func GroupAnagram() {
